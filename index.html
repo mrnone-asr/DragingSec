@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DragWithMouse</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <section class="sec1">
+        <h1 style="color: rgb(130, 136, 224);">Drag with mouse Hold</h1>
+        <div class="image-track" id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1569229569803-69384f5efa83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1579600161224-cac5a2971069?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9zaXRpdmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1601435119596-7cc938a5cbf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1531857454108-c65232a962a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1582676200361-dc3b8e71b8d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxtb3RpdmF0aW9uYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvc2l0aXZlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
+        </div>
+    </section>
+    <div class="line"></div>
+    <section class="sec2">
+        <h1 style="color: rgb(224, 130, 130); position: absolute;">Drag with scroll</h1>
+        <div class="image-track2">
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1569229569803-69384f5efa83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTN8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1579600161224-cac5a2971069?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9zaXRpdmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1601435119596-7cc938a5cbf4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1531857454108-c65232a962a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1582676200361-dc3b8e71b8d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTJ8fG1vdGl2YXRpb25hbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxtb3RpdmF0aW9uYWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" />
+            <img class="image" draggable="false"
+                src="https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHBvc2l0aXZlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" />
+            <img class="image hidden" draggable="false" src="https://images.sdfas" />
+
+        </div>
+    </section>
+    <section class="sec tcg">
+        <h1> "Unleash the magic of scrolling</h1>
+        <h1>-it's genuinely incredible!"</h1>
+    </section>
+
+</body>
+
+</html>

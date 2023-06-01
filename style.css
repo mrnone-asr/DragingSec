@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    background-color: #131316;
+    overflow-x: hidden;
+    user-select: none;
+}
+.sec1{
+    height: 90vh;
+    width: 100vw;
+    padding: 2%;
+    overflow: hidden;
+}
+.image-track{
+    display: flex;
+    gap: 4vmin;
+    position: relative;
+    left: 50%;
+    top: 50%; 
+    transform: translate(0%,-50%);
+}
+.image-track .image{
+    width: 45vmin;
+    height: 55vmin;
+    object-fit: cover;
+    object-position: right;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(34, 31, 31);
+}
+
+.sec2{
+    height: 90vh;
+    width: 100vw;
+    padding: 2%;
+    overflow-y:scroll;
+}
+
+.image-track2{
+    display: flex;
+    gap: 4vmin;
+    position: relative;
+    left: 50%;
+    top: 50%; 
+    transform: translate(0%,-50%);
+    transform-style: preserve-3d;
+    flex-wrap: nowrap;
+    padding-right: 5%;
+    
+}
+.image-track2 .image{
+    width: 45vmin;
+    height: 55vmin;
+    object-fit: cover;
+    object-position: center;
+    transform-style: preserve-3d;
+    transform: translateZ(1px);
+}
+
+.tcg{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 90vh;
+}
+
+section h1{
+    font-size: 50px;
+    padding: 20px;
+}
+.tcg p{
+    font-size: 30px;
+}
+.tcg{
+    background-image: linear-gradient(to bottom right, red, #0000ff);
+    background-clip: text;
+    color: transparent;
+}
+.hidden {
+    opacity: 0;
+  }
+  
